@@ -1,0 +1,6 @@
+.DS_Store
+*~
+\#*
+TAGS
+node_modules/
+elm-stuff/

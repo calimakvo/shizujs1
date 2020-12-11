@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Counter Main</title>
+  <script src="counter.js"></script>
+</head>
+<body>
+  <h1>カウンターサンプル1</h1>
+  <div id="counter1"></div>
+  <br/>
+  <h1>カウンターサンプル2</h1>
+  <div id="counter2"></div>
+</body>
+<script type="text/javascript">
+  var app1 = Elm.Counter.init({
+      flags: 88
+      , node: document.getElementById('counter1')
+  });
+  var app2 = Elm.Counter.init({
+        flags: 11
+      , node: document.getElementById('counter2')
+  });
+ </script>
+</html>
